@@ -20,21 +20,21 @@ const Projects = () => {
                 </p>
                 <div className="flex mt-4">
                   <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
-                    <a href={item.url} target="_blank" rel="noreferrer">
+                    <a href={item.github} target="_blank" rel="noreferrer">
                       <div className="bg-white">
                         <span className="block py-0.5 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
-                          See Project
+                          Source Code
                         </span>
                       </div>
                     </a>
                   </div>
-                  <div className="bg-white ml-2 font-semibold">
+                  {/* <div className="bg-white ml-2 font-semibold">
                     <a href={item.github} target="_blank" rel="noreferrer">                      
                       <span className="block py-1 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
                         Source Code
                       </span>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="lg:ml-12">
@@ -42,8 +42,10 @@ const Projects = () => {
                   src={item.image} 
                   alt="project image" 
                   className="mt-6 md:mt-12 lg:mt-0 w-full shadow-lg" 
-                  width={700} 
-                  height={350}
+                  width={500} 
+                  height={700}
+                  style={{width:'200%'}}
+                  unoptimized={false}
                 />
               </div>
             </li>
