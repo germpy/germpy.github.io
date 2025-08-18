@@ -19,10 +19,10 @@ const Projects = () => {
                   {item.description}
                 </p>
                 <div className="flex mt-4">
-                  <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+                  <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 ">
                     <a href={item.github} target="_blank" rel="noreferrer">
                       <div className="bg-white">
-                        <span className="block py-0.5 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+                        <span className="block py-0.5 px-2 bg-white bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600  bg-clip-text text-transparent">
                           Source Code
                         </span>
                       </div>
