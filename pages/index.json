@@ -14,8 +14,8 @@
   "about": {
     "title": "About me",
     "image": "/portrait.png",
-    "primary": "I plan to pursue Cybersecurity, but love exploring diverse experiences and fields. I'm interested in solving intersectional, meaningful problems!",
-    "secondary": "I've interned at Google in Summer 2025, and at Boeing in Summer 2023. I aim to be an engineer that thinks deeply about the context and consequences of the work that I do. In my free time, I enjoy creative expression, like art, dance, and writing."
+    "primary": "I am pursuing Cybersecurity, but I also love exploring diverse experiences and fields. I love solving intersectional, meaningful problems.",
+    "secondary": "I interned at Google (also known as Alphabet) in the Summer of 2025 and at Boeing in the Summer of 2023. I aim to be an engineer who thinks deeply about the context and consequences of the work that I do. In my free time, I enjoy creative expression, like art, dance, and writing."
   },
   "projects": {
     "title": "Projects",
