@@ -14,7 +14,7 @@
   "about": {
     "title": "About me",
     "image": "/portrait.png",
-    "primary": "I am pursuing Cybersecurity, but I also love exploring diverse experiences and fields. I love solving intersectional, meaningful problems.",
+    "primary": "I am pursuing Computer Science with an interest in Cybersecurity, but I also love exploring diverse experiences and fields. I love solving intersectional, meaningful problems.",
     "secondary": "I interned at Google (also known as Alphabet) in the Summer of 2025 and at Boeing in the Summer of 2023. I aim to be an engineer who thinks deeply about the context and consequences of the work that I do. In my free time, I enjoy creative expression, like art, dance, and writing."
   },
   "projects": {
@@ -23,7 +23,7 @@
       {
         "title": "Gacha Get-It-Done",
         "description": "Group Project for CS35L (Software Construction), 2025. Task/Habit Manager w/gamified 'gacha' component and social functions. Web application built with Node/Express and React. I connected our database to backend, collaborated on login and registration backend implementation, implemented gacha page, and created reward designs.",
-        "url": "http://www.example.com/project1",
+        "url": "",
         "github": "https://github.com/ktm19/gacha-task-manager",
         "image": "/gacha.png"
       },
@@ -31,7 +31,7 @@
 				"title": "3D Dungeon Crawler with 2D Sprite Billboarding",
 				"description": "Solo personal project using Unity/C#. Built a rough dungeon crawling game, where player character's 2D sprite changes appearance based on the angle of the camera. Implemented a random dungeon generator algorithm.",
 				"url": "http://www.example.com/project2",
-        "github": "https://github.com/germpy",
+        "github": "",
 				"image": "/dungeonCrawler.gif"
 			},
       {

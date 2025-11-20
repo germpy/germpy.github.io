@@ -19,6 +19,7 @@ const Projects = () => {
                   {item.description}
                 </p>
                 <div className="flex mt-4">
+                  {(item.github != "")? (
                   <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 ">
                     <a href={item.github} target="_blank" rel="noreferrer">
                       <div className="bg-white">
@@ -27,7 +28,11 @@ const Projects = () => {
                         </span>
                       </div>
                     </a>
-                  </div>
+                  </div> ) : 
+                    (<div>
+                      </div>)
+                  }
+                  
                   {/* <div className="bg-white ml-2 font-semibold">
                     <a href={item.github} target="_blank" rel="noreferrer">                      
                       <span className="block py-1 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
