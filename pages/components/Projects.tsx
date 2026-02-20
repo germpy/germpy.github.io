@@ -32,24 +32,25 @@ const Projects = () => {
                     (<div>
                       </div>)
                   }
-                  
-                  {/* <div className="bg-white ml-2 font-semibold">
-                    <a href={item.github} target="_blank" rel="noreferrer">                      
+                  {(item.url != "") ? (
+                    <div className="bg-white ml-2 font-semibold">
+                    <a href={item.url} target="_blank" rel="noreferrer">                      
                       <span className="block py-1 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
-                        Source Code
+                        See Project
                       </span>
                     </a>
-                  </div> */}
+                  </div>
+                  ) : (<div> </div>)}
                 </div>
               </div>
               <div className="lg:ml-12">
                 <Image 
                   src={item.image} 
-                  alt="project image" 
+                  alt="Project image" 
                   className="mt-6 md:mt-12 lg:mt-0 w-full shadow-lg" 
                   width={500} 
                   height={700}
-                  style={{width:'200%'}}
+                  style={{width:'800px' , height:'450px'}}
                   unoptimized={false}
                 />
               </div>

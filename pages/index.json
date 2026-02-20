@@ -13,13 +13,21 @@
   },
   "about": {
     "title": "About me",
-    "image": "/portrait.png",
-    "primary": "I am pursuing Computer Science with an interest in Cybersecurity, but I also love exploring diverse experiences and fields. I love solving intersectional, meaningful problems.",
-    "secondary": "I interned at Google (also known as Alphabet) in the Summer of 2025 and at Boeing in the Summer of 2023. I aim to be an engineer who thinks deeply about the context and consequences of the work that I do. In my free time, I enjoy creative expression, like art, dance, and writing."
+    "image": "/portrait2.png",
+    "primary": "I am a resourceful, articulate engineer that enjoys collaborating with diverse, multidisciplinary teams. I believe technology can build solutions that are effective, exciting, and meaningful for both their creators and audience. I love solving intersectional, meaningful problems.",
+    "secondary": "I interned at Google (also known as Alphabet) in the Summer of 2025 and at Boeing in the Summer of 2023. I'm currently on the development team for the ClubhouseUCLA web platform. I aim to be an engineer who thinks deeply about the context and consequences of the work that I do.",
+    "trivia": "Outside of my technical work, I enjoy drawing, reading, and writing. I perform with UCLA Wushu and Chinese Cultural Dance, and previously danced with a local ballet company. Talk to me about creative endeavors, studying abroad in Taiwan, or mechanical keyboards!"
   },
   "projects": {
     "title": "Projects",
     "projects": [
+      {
+				"title": "ClubhouseUCLA",
+				"description": "Application developer for ClubhouseUCLA, which connects the UCLA community with student organizations through a rating and reviews system. Implemented review likes, sorting, redirect functionalities. Built with React.js, Node.js, MySQL, and Supabase.",
+				"url": "https://www.clubhouseucla.com/",
+        "github": "https://github.com/kittenluv1/clubhouse",
+				"image": "/clubhouse.png"
+			},
       {
         "title": "Gacha Get-It-Done",
         "description": "Group Project for CS35L (Software Construction), 2025. Task/Habit Manager w/gamified 'gacha' component and social functions. Web application built with Node/Express and React. I connected our database to backend, collaborated on login and registration backend implementation, implemented gacha page, and created reward designs.",
@@ -30,14 +38,14 @@
       {
 				"title": "3D Dungeon Crawler with 2D Sprite Billboarding",
 				"description": "Solo personal project using Unity/C#. Built a rough dungeon crawling game, where player character's 2D sprite changes appearance based on the angle of the camera. Implemented a random dungeon generator algorithm.",
-				"url": "http://www.example.com/project2",
+				"url": "",
         "github": "",
 				"image": "/dungeonCrawler.gif"
 			},
       {
 				"title": "Medication Manager",
 				"description": "This was a short project done for the IB Computer Science HL assessment. I created a planner for clients that need to keep track of scheduled medications and supplements. It was built with Java and the Jswing library. ",
-				"url": "http://www.example.com/project3",
+				"url": "",
         "github": "https://github.com/germpy/ibcshl-2023-ia",
 				"image": "/medicineTracker.png"
 			}
